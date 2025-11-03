@@ -2,7 +2,7 @@
 
 /* Global dark theme */
 html, body {
-  background-color: #181a1b !important;
+  background-color: #131415 !important;
   color: #e8e6e3 !important;
   font-family: sans-serif, Arial, Helvetica !important;
 }
@@ -11,18 +11,26 @@ html, body {
 
 /* Normal links */
 a {
-  color: #3391ff !important;  /* Bright blue for readability */
+  color: #dd4814 !important;  /* Bright blue for readability */
   text-decoration: none !important;
 }
 
 /* Hovered links */
 a:hover,
 a:focus {
-  color: #66b0ff !important;  /* Lighter blue when hovered */
+  color: #97310e !important;  /* Lighter blue when hovered */
   text-decoration: underline !important;
 }
 
 /* Visited links (optional, subtle violet tint) */
 a:visited {
   color: #9d8cff !important;
+}
+
+.log tbody > tr:nth-child(odd), .loglist tbody > tr:nth-child(odd) {
+	background: #373737;
+}
+
+.main {
+	background: #444;
 }
