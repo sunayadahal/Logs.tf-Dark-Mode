@@ -1,0 +1,5 @@
+.log .icon img,
+.log img[src*="class"],
+.table-players img {
+  filter: none !important;
+}
